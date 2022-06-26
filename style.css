@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(230,86,26,1) 23%, rgba(220,220,220,1) 49%, rgba(230,86,26,1) 79%);
+
+}
+section h1{
+    color:white;
+    background-color: rgb(101, 41, 41);
+    margin-top: 20px;
+}
+
+#country-section h3{
+    color:white;
+    
+    margin-top: 20px;
+}
+.countries img{
+    width: 180px;
+}   
+.countries{
+    
+}    
+.info{
+    
+    height: 500px;
+    
+}
+.navbar{
+    background-color: rgba(131, 125, 213, 0.28);
+    
+}
