@@ -34,11 +34,16 @@ const updateScreen=(info)=>{
         <div class="col-md-3 m-4 border border-1">
         <img class="malzeme" style=width:320px  src=${w.strMealThumb} class="card-img-top" >
         <h3  >${w.strMeal}</h3>
+        <a href=${w.strSource} target="_blank"  class="btn btn-warning">Show Detail</a>
         
         </div>
         `
     })
+  
+    
 } 
+
+
 
 mealsInput.oninput=(letter)=>{
     var text = letter.target.value.toLowerCase();
